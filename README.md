@@ -53,6 +53,7 @@ Add your current IP address to the whitelist to allow connections from your deve
 Apply database migrations to set up the database schema:
 
 ```bash
+python manage.py makemigrations
 python manage.py migrate
 ```
 
